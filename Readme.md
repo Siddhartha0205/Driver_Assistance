@@ -37,6 +37,36 @@
 
 <p>To overcome this issue, the weak classifiers are trained per distinctive feature and are combined to form a strong classifier. The sub-window of the input images is processed through this cascade. It gets dropped if any of the classifiers in this cascade does not detect information that belongs to the Human face. </p>
 
+<h2>Results and Observations</h2>
+
+<p>The dataset used for this project is <b>Face Detection DataBase</b> (FDDB) from ref [2].</p>
+
+<p>The below figures show that the model detected the location of the human face successfully and added a rectangle around the human face</p>
+
+<p float="left">
+  <img src="Dataset/51_Dresses_wearingdress_51_741_jpg.rf.9a7622017e5f79023ce1a8f256dcebc3.jpg" width="100" />
+  <img src="Output/51_Dresses_wearingdress_51_741_jpg.rf.9a7622017e5f79023ce1a8f256dcebc3.jpg" width="100" /> 
+</p>
+
+<p float="left">
+  <img src="Dataset/img_41_jpg.rf.ce77cacb4290c4ddc06e893f8da35b92.jpg" width="100" />
+  <img src="Output/img_41_jpg.rf.ce77cacb4290c4ddc06e893f8da35b92.jpg" width="100" /> 
+</p>
+
+<p float="left">
+  <img src="Dataset/40_Gymnastics_Gymnastics_40_869_jpg.rf.b2f1cfd8424ea811106fcd8bb347ac4f.jpg" width="100" />
+  <img src="Output/40_Gymnastics_Gymnastics_40_869_jpg.rf.b2f1cfd8424ea811106fcd8bb347ac4f.jpg" width="100" /> 
+</p>
+
+<p>However, the model's accuracy could be affected by many other factors. In the below comparison, the model could predict only one human face despite the image containing two human faces.</p>
+
+<p float="left">
+  <img src="Dataset/0_Parade_marchingband_1_353_jpg.rf.02aabbd7a6ff54e4b558dca3ed51d06f.jpg" width="100" />
+  <img src="Output/0_Parade_marchingband_1_353_jpg.rf.02aabbd7a6ff54e4b558dca3ed51d06f.jpg" width="100" /> 
+</p>
+
+<p><i>Note: The comparison for other images is left for self-analysis</i></p>
+
 <h2>Limitations</h2>
 
 <ul>
@@ -51,8 +81,10 @@
 
 <h2>References</h2>
 
-<ul>
+<ol>
   
 <li>Viola, P., Jones, M.J. Robust Real-Time Face Detection. International Journal of Computer Vision 57, 137–154 (2004). https://doi.org/10.1023/B:VISI.0000013087.49260.fb</li>
 
-</ul>
+<li>“Face detection Object Detection Dataset (v1, FDDB) by FDDB,” Roboflow. https://universe.roboflow.com/fddb/face-detection-40nq0/dataset/1</li>
+
+</ol>
