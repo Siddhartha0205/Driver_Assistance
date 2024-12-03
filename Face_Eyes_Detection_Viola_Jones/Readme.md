@@ -41,28 +41,19 @@
 
 <p>The dataset used for this project is <b>Face Detection DataBase</b> (FDDB) from ref [2].</p>
 
-<p>The below figures show that the model detected the location of the human face successfully and added a rectangle around the human face</p>
+<p>The below figures show that the model detected the location of the human face and eyes successfully and added rectangles around the regions of interest</p>
 
 <p float="left">
   <img src="Dataset/51_Dresses_wearingdress_51_741_jpg.rf.9a7622017e5f79023ce1a8f256dcebc3.jpg" width="100" />
   <img src="Output/51_Dresses_wearingdress_51_741_jpg.rf.9a7622017e5f79023ce1a8f256dcebc3.jpg" width="100" /> 
 </p>
 
-<p float="left">
-  <img src="Dataset/img_41_jpg.rf.ce77cacb4290c4ddc06e893f8da35b92.jpg" width="100" />
-  <img src="Output/img_41_jpg.rf.ce77cacb4290c4ddc06e893f8da35b92.jpg" width="100" /> 
-</p>
+
+<p>However, the model's accuracy could be affected by many other factors. In the below comparison, the model could predict faces but its performance is degraded in the case of eye detection.</p>
 
 <p float="left">
-  <img src="Dataset/40_Gymnastics_Gymnastics_40_869_jpg.rf.b2f1cfd8424ea811106fcd8bb347ac4f.jpg" width="100" />
-  <img src="Output/40_Gymnastics_Gymnastics_40_869_jpg.rf.b2f1cfd8424ea811106fcd8bb347ac4f.jpg" width="100" /> 
-</p>
-
-<p>However, the model's accuracy could be affected by many other factors. In the below comparison, the model could predict only one human face despite the image containing two human faces.</p>
-
-<p float="left">
-  <img src="Dataset/0_Parade_marchingband_1_353_jpg.rf.02aabbd7a6ff54e4b558dca3ed51d06f.jpg" width="100" />
-  <img src="Output/0_Parade_marchingband_1_353_jpg.rf.02aabbd7a6ff54e4b558dca3ed51d06f.jpg" width="100" /> 
+  <img src="Dataset/7_Cheering_Cheering_7_125_jpg.rf.d56cc95ae1289c00deba1ea3cdc72f42.jpg" width="100" />
+  <img src="Output/7_Cheering_Cheering_7_125_jpg.rf.d56cc95ae1289c00deba1ea3cdc72f42.jpg" width="100" /> 
 </p>
 
 <p><i>Note: The comparison for other images is left for self-analysis</i></p>
