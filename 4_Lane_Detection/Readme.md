@@ -17,7 +17,7 @@
 
 <h2>Concepts involved</h2>
 
-<h3>Edge Detection - Canny edge detector</h3><li>[1]</li>
+<h3>Edge Detection - Canny edge detector <sup>[2]</sup></h3>
 
 <p> An edge can be characterised based on the change in the intensity values between neighbouring pixels. This change is to be observed in both x-direction and y-direction. </p>
 
@@ -44,7 +44,7 @@
 <p> For the pixels whose gradient lies in the range: these are considered as weak gradients. If these weak gradients tag along with strong gradients, then these weak gradients are also considered for the final edge map. Else, pixels with weak gradients are removed out of the final edge map list. </p>
 
 
-<h3>Hough Transform </h3><li>[2]</li>
+<h3>Hough Transform <sup>[3]</sup></h3>
 
 <p> Hough transform is a popular technique in computer vision domain to track geometric shapes like lines, circles and other curves. Its applications vary across different fields such as medical imaging, robotics and Autonomous Driving. </p>
 
@@ -80,3 +80,8 @@
 <li> GeeksforGeeks, “Hough transform in computer vision.,” GeeksforGeeks, Jun. 17, 2024. Available: https://www.geeksforgeeks.org/hough-transform-in-computer-vision/ </li>
 
 </ol>
+
+
+<h3>Disclaimer</h3>
+
+<p>The above information and results are published with no intention of misusing the results and not for sharing with anyone. The above information and results are added to my GitHub account solely to prove that I hold hands-on experience on these concepts. I request viewers not to misuse the above information and not to share this data with any person or media.</p>
