@@ -54,12 +54,14 @@
 
 <h2>Results</h2>
 
-<p>The below figures show that the model detected the location of the human face successfully and added a rectangle around the human face</p>
+<p>The below pictures and video show that the lanes of the road being detected and highlighted with blue lines</p>
 
 <p float="left">
-  <img src="Road_image.jpg" width="100" />
-  <img src="Lane_detected.png" width="100" /> 
+  <img src="Road_image.jpg" width="500" />
+  <img src="Lane_detected.png" width="500" /> 
 </p>
+
+https://github.com/user-attachments/assets/d8d8ab34-16c6-4fb2-8342-b14440af6064
 
 
 <h2> Limitations </h2>
@@ -84,4 +86,6 @@
 
 <h3>Disclaimer</h3>
 
-<p>The above information and results are published with no intention of misusing the results and not for sharing with anyone. The above information and results are added to my GitHub account solely to prove that I hold hands-on experience on these concepts. I request viewers not to misuse the above information and not to share this data with any person or media.</p>
+<p>The knowledge of this mini-project is acquired from reference [1].</p>
+
+<p>The above information and results added to this project do not hold any intention of misusing the references. The above information and results are added to my GitHub account solely to prove that I hold hands-on experience in these concepts. I request viewers not to misuse the above information and not to share this data with any person or media.</p>
